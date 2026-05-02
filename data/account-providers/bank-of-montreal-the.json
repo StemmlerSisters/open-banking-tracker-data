@@ -8,10 +8,17 @@
   ],
   "name": "BANK OF MONTREAL, THE",
   "legalName": "BANK OF MONTREAL, THE",
+  "aliases": [
+    "BMO",
+    "Bank of Montreal",
+    "BMO Bank",
+    "BMO Financial Group",
+    "Banque de Montréal"
+  ],
   "verified": false,
   "status": "live",
   "icon": "https://icons.duckduckgo.com/ip3/www.bankofmontrealthe.com.ico",
-  "websiteUrl": null,
+  "websiteUrl": "https://www.bankofmontreal.com",
   "countryHQ": "CA",
   "countries": [
     "CA"

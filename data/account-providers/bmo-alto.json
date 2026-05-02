@@ -8,6 +8,11 @@
   ],
   "name": "BMO Alto",
   "legalName": "BMO Alto",
+  "aliases": [
+    "Bank of Montreal",
+    "BMO",
+    "BMO Bank"
+  ],
   "verified": false,
   "status": "live",
   "icon": "https://icons.duckduckgo.com/ip3/www.bmo-alto.com.ico",

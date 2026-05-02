@@ -1,0 +1,150 @@
+{
+  "id": "venn",
+  "type": [
+    "account"
+  ],
+  "bankType": [
+    "challenger"
+  ],
+  "name": "Venn",
+  "legalName": "Venn Software Inc.",
+  "aliases": [
+    "Vault",
+    "Vault Payments Inc."
+  ],
+  "description": "Venn (formerly Vault) is a Canadian business banking platform for SMBs and entrepreneurs offering multi-currency accounts in CAD, USD, GBP and EUR, corporate Mastercards with cashback, expense management, accounts payable, multi-currency invoicing, FX and global wires to 180+ countries. Venn is a technology company and not a chartered bank — Venn Account Balances are held at Bank of Montreal (a CDIC member institution), and Venn Mastercard Charge Cards are issued by Peoples Trust Company. Venn Software Inc. is registered with FINTRAC as a money service business (M22941967) and is approved by the Bank of Canada as a Payment Service Provider under the Retail Payments Activities Act. Founded in 2021 in Toronto by Saud Aziz and Ahmed Shafik (former Revolut and KOHO operators) as Vault, the company rebranded to Venn in February 2025 alongside a $21.5M Series A. Venn Intelligence layers AI tools and accounting agents (auto receipt matching, AI category suggestions, rule engine) on top of the platform, and external CAD bank accounts can be linked via Plaid. Venn is currently not available to businesses in Quebec.",
+  "verified": false,
+  "status": "live",
+  "icon": "https://icons.duckduckgo.com/ip3/www.venn.ca.ico",
+  "websiteUrl": "https://www.venn.ca",
+  "alternateWebsiteUrls": [
+    "https://tryvault.com/"
+  ],
+  "countryHQ": "CA",
+  "countries": [
+    "CA"
+  ],
+  "thirdPartyBankingLicense": [
+    "bank-of-montreal"
+  ],
+  "creditCards": [
+    "mastercard"
+  ],
+  "webApplication": true,
+  "mobileApps": [],
+  "compliance": [],
+  "developerPortalUrl": null,
+  "apiStandards": [],
+  "apiProducts": [],
+  "apiAggregators": [
+    "plaid"
+  ],
+  "partnerships": [
+    {
+      "id": "bank-of-montreal",
+      "name": "Bank of Montreal",
+      "icon": "https://icons.duckduckgo.com/ip3/www.bankofmontreal.com.ico",
+      "websiteUrl": "https://www.bankofmontreal.com/",
+      "title": "Account custodian and CDIC deposit insurance",
+      "desription": "Venn Account Balances are held at Bank of Montreal, a member of the Canada Deposit Insurance Corporation (CDIC), and are eligible for CDIC deposit insurance up to applicable limits.",
+      "sourceUrl": "https://www.venn.ca/"
+    },
+    {
+      "name": "Peoples Trust Company",
+      "icon": "https://icons.duckduckgo.com/ip3/www.peoplestrust.com.ico",
+      "websiteUrl": "https://www.peoplestrust.com/",
+      "title": "Card issuer and Canadian banking rails",
+      "desription": "Venn Mastercard Charge Card is issued by Peoples Trust Company under licence from Mastercard International Incorporated. Peoples Trust also provides the underlying Canadian banking infrastructure (EFT, pre-authorized debits, CRA remittances) that powers Venn's payroll and domestic payment flows.",
+      "sourceUrl": "https://www.venn.ca/legal/cardholder-agreement"
+    },
+    {
+      "name": "Mastercard",
+      "icon": "https://icons.duckduckgo.com/ip3/www.mastercard.com.ico",
+      "websiteUrl": "https://www.mastercard.com/",
+      "title": "Card network for Venn corporate cards",
+      "desription": "Venn Mastercard Charge Card is issued under licence from Mastercard International Incorporated. Mastercard is a registered trademark, and the circles design is a trademark of Mastercard International Incorporated.",
+      "sourceUrl": "https://www.venn.ca/"
+    },
+    {
+      "name": "Interac Corp.",
+      "icon": "https://icons.duckduckgo.com/ip3/www.interac.ca.ico",
+      "websiteUrl": "https://www.interac.ca/",
+      "title": "Domestic Canadian payments network",
+      "desription": "Interac e-Transfer® is provided by Interac Corp. and used under license to power free unlimited Interac e-Transfers for Venn business accounts.",
+      "sourceUrl": "https://www.venn.ca/"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "QuickBooks Online",
+      "type": "Accounting",
+      "websiteUrl": "https://quickbooks.intuit.com/"
+    },
+    {
+      "name": "Xero",
+      "type": "Accounting",
+      "websiteUrl": "https://www.xero.com/"
+    },
+    {
+      "name": "Shopify",
+      "type": "Ecommerce",
+      "websiteUrl": "https://www.shopify.com/"
+    },
+    {
+      "name": "Stripe",
+      "type": "Payments",
+      "websiteUrl": "https://stripe.com/"
+    },
+    {
+      "name": "Amazon",
+      "type": "Ecommerce",
+      "websiteUrl": "https://www.amazon.com/"
+    },
+    {
+      "name": "PayPal",
+      "type": "Payments",
+      "websiteUrl": "https://www.paypal.com/"
+    },
+    {
+      "name": "Etsy",
+      "type": "Ecommerce",
+      "websiteUrl": "https://www.etsy.com/"
+    }
+  ],
+  "ipoStatus": "private",
+  "crunchbase": "vault-7a64",
+  "ownership": [
+    {
+      "shareholderName": "Left Lane Capital",
+      "shareholderIconUrl": "https://icons.duckduckgo.com/ip3/leftlanecap.com.ico",
+      "providerId": null,
+      "sourceUrl": "https://www.venn.ca/resources/venn-series-a"
+    },
+    {
+      "shareholderName": "XYZ Venture Capital",
+      "shareholderIconUrl": "https://icons.duckduckgo.com/ip3/xyz.vc.ico",
+      "providerId": null,
+      "sourceUrl": "https://www.venn.ca/resources/venn-series-a"
+    },
+    {
+      "shareholderName": "Intact Ventures",
+      "shareholderIconUrl": "https://icons.duckduckgo.com/ip3/intactventures.com.ico",
+      "providerId": null,
+      "sourceUrl": "https://www.venn.ca/resources/venn-series-a"
+    },
+    {
+      "shareholderName": "Gradient Ventures",
+      "shareholderIconUrl": "https://icons.duckduckgo.com/ip3/gradient.com.ico",
+      "providerId": null,
+      "sourceUrl": "https://www.venn.ca/resources/venn-series-a"
+    },
+    {
+      "shareholderName": "Fin Capital",
+      "shareholderIconUrl": "https://icons.duckduckgo.com/ip3/fin.capital.ico",
+      "providerId": null,
+      "sourceUrl": "https://www.venn.ca/vault-raises-5m-in-seed-funding-round-co-led-by-gradient-ventures-and-fin-capital"
+    }
+  ],
+  "stateOwned": false,
+  "stockSymbol": null
+}
