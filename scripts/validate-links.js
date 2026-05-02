@@ -28,6 +28,7 @@ const FULL_LINK_KEYS = new Set([
   ...LOGIN_KEYS,
   'icon',
   'websiteUrl',
+  'alternateWebsiteUrls',
   'developerPortalUrl',
   'developerCommunityUrl',
   'openBankProjectUrl',
@@ -204,8 +205,19 @@ function walkForLinks (node, keyName, keySet, acc, filePath, idHint) {
 
   if (Array.isArray(node)) {
     for (let i = 0; i < node.length; i++) {
+      const el = node[i]
+      // Arrays of URL strings (e.g. alternateWebsiteUrls) — parent key names the field
+      if (typeof el === 'string' && keySet.has(keyName) && /^https?:\/\//i.test(el)) {
+        acc.push({
+          url: el,
+          field: keyName,
+          file: filePath,
+          id: idHint
+        })
+        continue
+      }
       // Reset key context so nested objects expose real field names (e.g. documentationUrl in apiProducts[])
-      walkForLinks(node[i], '', keySet, acc, filePath, idHint)
+      walkForLinks(el, '', keySet, acc, filePath, idHint)
     }
     return
   }
@@ -283,7 +295,7 @@ Options:
   (default)     Scan all account-providers + third-party-providers for login URLs only
                 (${[...LOGIN_KEYS].join(', ')}).
 
-  --full        Also check other whitelisted link fields (websiteUrl, icon, docs, MCP URLs, …).
+  --full        Also check other whitelisted link fields (websiteUrl, alternateWebsiteUrls, icon, docs, MCP URLs, …).
   --aggregators Include data/api-aggregators (useful with --full).
   --no-providers Skip provider directories when using explicit paths or --aggregators-only flow.
 

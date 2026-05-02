@@ -9,6 +9,12 @@
   "name": "BMO Harris Bank",
   "description": "BMO Harris Bank, N.A. is a United States bank based in Chicago, Illinois. It is a member of the Federal Reserve System and operates branches in the states of Illinois, Indiana, Arizona, Missouri, Minnesota, Kansas, Florida, Wisconsin, and California.",
   "legalName": "BMO Harris Bank, N.A.",
+  "aliases": [
+    "BMO",
+    "Bank of Montreal",
+    "BMO Bank",
+    "BMO Bank N.A."
+  ],
   "ipoStatus": "private",
   "stockSymbol": null,
   "verified": false,

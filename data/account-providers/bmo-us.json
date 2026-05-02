@@ -8,6 +8,11 @@
   ],
   "name": "BMO (US)",
   "legalName": "BMO (US)",
+  "aliases": [
+    "Bank of Montreal",
+    "BMO Bank",
+    "BMO US"
+  ],
   "verified": false,
   "status": "live",
   "icon": "https://icons.duckduckgo.com/ip3/www.bmo-us.com.ico",

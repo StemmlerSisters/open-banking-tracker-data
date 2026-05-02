@@ -8,10 +8,15 @@
   ],
   "name": "BMO BANK N.A.",
   "legalName": "BMO BANK N.A.",
+  "aliases": [
+    "Bank of Montreal",
+    "BMO",
+    "BMO Harris"
+  ],
   "verified": false,
   "status": "live",
   "icon": "https://icons.duckduckgo.com/ip3/www.bmo-bank-na.com.ico",
-  "websiteUrl": null,
+  "websiteUrl": "https://www.bmo.com",
   "countryHQ": "US",
   "countries": [
     "US"
