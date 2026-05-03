@@ -25,7 +25,8 @@
   "apiStandards": [],
   "apiProducts": [],
   "apiAggregators": [
-    "plaid"
+    "plaid",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

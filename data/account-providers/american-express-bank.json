@@ -27,7 +27,8 @@
     "gocardless",
     "lunchflow",
     "plaid",
-    "tink"
+    "tink",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

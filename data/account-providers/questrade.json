@@ -26,7 +26,8 @@
     "flinks",
     "lunchflow",
     "plaid",
-    "snaptrade"
+    "snaptrade",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

@@ -37,7 +37,8 @@
   "apiStatusUrls": [],
   "apiAggregators": [
     "flinks",
-    "plaid"
+    "plaid",
+    "banksync"
   ],
   "collections": [],
   "webApplication": true,

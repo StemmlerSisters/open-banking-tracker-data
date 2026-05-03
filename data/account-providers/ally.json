@@ -40,7 +40,8 @@
   "apiStatusUrls": [],
   "apiAggregators": [
     "plaid",
-    "teller-io"
+    "teller-io",
+    "banksync"
   ],
   "collections": [],
   "webApplication": true,

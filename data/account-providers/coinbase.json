@@ -65,7 +65,8 @@
   "apiStatusUrls": [],
   "apiAggregators": [
     "lunchflow",
-    "snaptrade"
+    "snaptrade",
+    "banksync"
   ],
   "collections": [],
   "sdks": [

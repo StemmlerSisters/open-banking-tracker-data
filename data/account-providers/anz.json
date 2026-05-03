@@ -35,7 +35,9 @@
   "apiStatusUrls": [],
   "apiAggregators": [
     "akahu",
-    "lunchflow"
+    "lunchflow",
+    "banksync",
+    "fiskil"
   ],
   "collections": [],
   "webApplication": true,

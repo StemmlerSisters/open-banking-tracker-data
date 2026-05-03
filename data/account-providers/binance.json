@@ -21,7 +21,8 @@
   "apiProducts": [],
   "apiAggregators": [
     "lunchflow",
-    "snaptrade"
+    "snaptrade",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

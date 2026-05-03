@@ -32,7 +32,8 @@
   "apiStandards": [],
   "apiAggregators": [
     "flinks",
-    "plaid"
+    "plaid",
+    "banksync"
   ],
   "collections": [],
   "webApplication": false,
