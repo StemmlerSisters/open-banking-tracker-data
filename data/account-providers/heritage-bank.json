@@ -23,7 +23,9 @@
   "apiStandards": [],
   "apiProducts": [],
   "apiAggregators": [
-    "plaid"
+    "plaid",
+    "banksync",
+    "fiskil"
   ],
   "ownership": [],
   "stateOwned": false,

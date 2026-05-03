@@ -31,7 +31,8 @@
   "apiAggregators": [
     "flinks",
     "plaid",
-    "truelayer"
+    "truelayer",
+    "banksync"
   ],
   "collections": [],
   "webApplication": true,

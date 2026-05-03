@@ -1,0 +1,15 @@
+{
+  "id": "fiskil",
+  "label": "Fiskil",
+  "website": "https://fiskil.com/",
+  "iconUrl": "https://fiskil.com/favicon.ico",
+  "twitter": "fiskilhq",
+  "developerPortalUrl": "https://docs.fiskil.com/",
+  "countryHQ": "AU",
+  "marketFocus": "Australia",
+  "verified": false,
+  "description": "Australian Consumer Data Right (CDR) data aggregator for banking, energy, and telco",
+  "marketCoverage": {
+    "live": ["AU"]
+  }
+}

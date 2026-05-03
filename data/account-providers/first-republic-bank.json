@@ -25,7 +25,8 @@
   "apiProducts": [],
   "apiAggregators": [
     "plaid",
-    "teller-io"
+    "teller-io",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

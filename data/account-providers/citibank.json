@@ -25,7 +25,8 @@
   "apiAggregators": [
     "finverse",
     "flinks",
-    "lunchflow"
+    "lunchflow",
+    "banksync"
   ],
   "ownership": [],
   "stateOwned": false,

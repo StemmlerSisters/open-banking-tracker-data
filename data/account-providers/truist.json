@@ -34,7 +34,8 @@
   "apiStandards": [],
   "apiStatusUrls": [],
   "apiAggregators": [
-    "plaid"
+    "plaid",
+    "banksync"
   ],
   "collections": [],
   "webApplication": false,

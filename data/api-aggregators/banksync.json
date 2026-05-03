@@ -1,0 +1,39 @@
+{
+  "id": "banksync",
+  "label": "BankSync",
+  "website": "https://banksync.io/",
+  "iconUrl": "https://banksync.io/icon.png",
+  "twitter": "banksynchq",
+  "developerPortalUrl": "https://banksync.io/developers",
+  "statusUrl": "https://status.banksync.io/",
+  "countryHQ": "AU",
+  "marketFocus": "North America and Australia",
+  "mcpServer": {
+    "type": "hosted",
+    "transport": "sse",
+    "serverUrl": "https://mcp.banksync.io",
+    "authType": "api_key",
+    "documentationUrl": "https://banksync.io/developers/mcp-setup",
+    "repositoryUrl": "https://github.com/banksynchq/banksync-mcp",
+    "smitheryUrl": "https://smithery.ai/server/banksync/banksync-mcp",
+    "tools": [
+      "banksync_list_banks",
+      "banksync_connect_bank",
+      "banksync_list_accounts",
+      "banksync_get_transactions",
+      "banksync_get_balance",
+      "banksync_get_holdings",
+      "banksync_get_trades",
+      "banksync_get_loan",
+      "banksync_create_feed",
+      "banksync_trigger_sync"
+    ]
+  },
+  "verified": true,
+  "description": "Bank data sync for AI agents across the US, Canada, and Australia, with read-write feeds into Notion, Google Sheets, Airtable, and Excel",
+  "note": "BankSync inherits institutional coverage from Plaid (banking, US/CA), Fiskil (CDR, AU), and SnapTrade (brokerage, global), and adds a hosted MCP server with read-write tooling for AI agents",
+  "upstreamAggregators": ["plaid", "fiskil", "snaptrade"],
+  "marketCoverage": {
+    "live": ["AU", "CA", "US"]
+  }
+}
