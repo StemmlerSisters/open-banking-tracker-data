@@ -106,6 +106,18 @@
       "description": "Whether the API aggregator has been verified as legitimate and operational",
       "examples": [true, false]
     },
+    "parentCompany": {
+      "title": "Parent Company",
+      "type": "string",
+      "description": "Owner of the aggregator, where the ownership is material to how the market reads it. Completed acquisitions only -- use pendingAcquisitionBy while a deal is still subject to approval. Omit for independent aggregators.",
+      "examples": ["Mastercard", "Visa"]
+    },
+    "pendingAcquisitionBy": {
+      "title": "Pending Acquisition By",
+      "type": "string",
+      "description": "Acquirer of an announced but not yet completed acquisition, i.e. one still subject to regulatory approval. Moves to parentCompany once the deal closes.",
+      "examples": ["Mollie"]
+    },
     "marketFocus": {
       "title": "Market Focus",
       "type": "string",
